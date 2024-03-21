@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Document</title>
+</head>
+<body>
+  <div class="screen">
+    <div class="score">
+      <div class="scores playerScore">
+        <p>You:</p>
+        <p id="playerScore">0</p>
+      </div>
+      <div class="scores botScore">
+        <p>Bot:</p>
+        <p id="botScore">0</p>
+      </div>
+    </div>
+    <p class="main-label"></p>
+    <svg xmlns="http://www.w3.org/2000/svg" class="reset" width="54" height="54" viewBox="0 0 24 24" stroke-width="1.5" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
+      <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+      <path d="M20 11a8.1 8.1 0 0 0 -15.5 -2m-.5 -4v4h4" />
+      <path d="M4 13a8.1 8.1 0 0 0 15.5 2m.5 4v-4h-4" />
+    </svg>
+  </div>
+  <div class="btn-group">
+    <button class="btn rock">✊</button>
+    <button class="btn paper">🖐</button>
+    <button class="btn scissors">✌</button>
+  </div>
+  <script src="main.js"></script>
+</body>
+</html>
